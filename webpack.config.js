@@ -8,9 +8,10 @@ module.exports = {
     },
     output: {
         filename: '[name].js',
-        library: 'js-tools',
+        library: 'JsTools',
         libraryTarget: 'umd',
-        libraryExport: 'export',
+        libraryExport: 'default',
+        globalObject: 'this',
     },
     optimization: {
         minimize: true,

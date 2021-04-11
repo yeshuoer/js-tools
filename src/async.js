@@ -9,7 +9,7 @@
  */
 const wait = function (ms) {
     return new Promise((resolve) => {
-        window.setTimeout(resolve, ms)
+        setTimeout(resolve, ms)
     })
 }
 

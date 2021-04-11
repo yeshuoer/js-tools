@@ -4,10 +4,10 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["js-tools"] = factory();
+		exports["JsTools"] = factory();
 	else
-		root["js-tools"] = factory();
-})(self, function() {
+		root["JsTools"] = factory();
+})(this, function() {
 return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ([
@@ -154,7 +154,7 @@ __webpack_require__.r(__webpack_exports__);
 
 })();
 
-__webpack_exports__ = __webpack_exports__.export;
+__webpack_exports__ = __webpack_exports__.default;
 /******/ 	return __webpack_exports__;
 /******/ })()
 ;

@@ -1,6 +1,6 @@
 {
   "name": "@yeshuoer/js-tools",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "jstools",
   "main": "./dist/js-tools.js",
   "devDependencies": {
@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "webpack",
+    "prepub": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
