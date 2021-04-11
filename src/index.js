@@ -8,9 +8,11 @@ import {
 } from './async'
 
 
-export {
+export default {
+    // utils
     log,
 
+    // async
     wait,
     defer,
 }
