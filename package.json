@@ -1,6 +1,6 @@
 {
   "name": "@yeshuoer/js-tools",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "jstools",
   "main": "./dist/js-tools.js",
   "devDependencies": {

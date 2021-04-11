@@ -48,7 +48,7 @@ __webpack_require__.r(__webpack_exports__);
  */
 const wait = function (ms) {
     return new Promise((resolve) => {
-        window.setTimeout(resolve, ms)
+        setTimeout(resolve, ms)
     })
 }
 
