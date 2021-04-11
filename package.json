@@ -1,0 +1,29 @@
+{
+  "name": "@yeshuoer/js-tools",
+  "version": "1.0.7",
+  "description": "jstools",
+  "main": "./dist/js-tools.js",
+  "devDependencies": {
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "prepub": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeshuoer/js-tools.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Js"
+  ],
+  "author": "yeshuoer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeshuoer/js-tools/issues"
+  },
+  "homepage": "https://github.com/yeshuoer/js-tools#readme"
+}
